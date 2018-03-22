@@ -1,0 +1,29 @@
+body {
+	font: 1.5em Tahoma, sans-serif;
+	background-color: lightblue;
+	/*background-image: url("blah.jpg")*/
+}
+
+.title {
+	font-weight:normal;
+}
+
+.container {
+	width:100%;
+	max-width:600px;
+	text-align:center;
+	margin:0 auto;
+	position:relative;
+	top:200px;
+}
+
+input {
+	padding:10px;
+	background-color:#fff;
+	border: 1px solid #ccc;
+	margin:0;
+}
+
+input[type="text"] {
+	width:300px;
+}
